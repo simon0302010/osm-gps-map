@@ -84,7 +84,7 @@ OsmGpsMapTrack *    osm_gps_map_track_new_with_data (GSList *list);
 
 /**
  * osm_gps_map_track_add_point:
- * @track: (inout): a #OsmGpsMapTrack
+ * @track: (in): a #OsmGpsMapTrack
  * @point: (in): a #OsmGpsMapPoint point to add
  *
  * Add a point to track
